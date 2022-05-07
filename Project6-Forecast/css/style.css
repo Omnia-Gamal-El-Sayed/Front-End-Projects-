@@ -1,0 +1,113 @@
+
+.navbar{
+    background-color: #005BA4!important;
+    padding: 20px!important;
+}
+.nav-link{
+    color: #fff!important;
+    margin: 20px!important;
+}
+.active{
+    border: #fff solid 1px !important;
+    border-radius: 40%; 
+
+}
+.nav-link:hover{
+    border: #fff solid 1px ;
+    border-radius: 40%; 
+}
+.navbar-brand{
+    color: #fff!important;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+.font{
+    font-size: 0.7rem;
+}
+/* search */
+.search{
+    background-image: url(../img/weather-images.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+
+}
+.find{
+    position: relative;
+    /* background-color: aqua; */
+}
+.bf{
+    position: absolute;
+    border-radius: 20px;
+    color: white;
+    width: 90px;
+    height: 45px;
+    top: 5px;
+    right: 170px;
+    background-color: #005BA4;
+}
+.se{
+    height: 55px;
+}
+.card{
+    color: #fff;
+}
+.first{
+background-color: #588DC3;
+}
+.sec{
+    background-color: #D77D4B;
+}
+.third{
+    background-color:#6D5A87 ;
+}
+.head{
+    background-color: rgba(28, 34, 88, 0.3);
+    width: 100%;
+}
+.deg{
+    font-size: 90px;
+    font-family: Roboto, "Open Sans", sans-serif;
+    line-height:135px;
+    font-weight:700;
+}
+ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rosybrown; */
+    
+}
+ul li{
+    margin-right: 5px;
+}
+.bg{
+    background: rgb(215,125,75);
+    background: radial-gradient(circle, rgba(215,125,75,1) 0%, rgba(150,104,112,1) 56%, rgba(88,141,195,1) 100%);
+height: 250px;
+}
+.footer{
+    background-color: #005BA4;
+    padding: 30px;
+}
+.icons{
+    width: 20%;
+justify-content: space-between;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    color: #009AD8;
+    background-color: white;
+    border-radius: 50%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.icon:hover{
+    color:white  ;
+    background-color: #6D5A87;
+    cursor: pointer;
+}
