@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial_scale=1.0">
+</head>
+
+<body style="color: rgb(87,132,187);">
+
+
+    <form>
+
+        <fieldset style="background-color:rgb(182,216,243) ;">
+            <legend style="background-color: rgb(244,207,224);">Personal Data</legend>
+            <br><br>
+            <fieldset style="background-color: rgb(248,246,207);">
+                <legend style="background-color: rgb(244,207,224);height: 85;"><br><br>Your Name</legend>
+                <br><br>
+                <table>
+                    <tr>
+                        <th><label for="first_name">First Name </label></th>
+                        <td>:</td>
+                        <td><input type="text" name="fname" id="first_name" required></td>
+                    </tr>
+
+                    <br>
+                    <tr>
+                        <th><label for="last_name">Last Name </label></th>
+                        <td>:</td>
+                        <td><input type="text" name="lname" id="last_name" required></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            <br><br><br>
+            <table>
+                <tr>
+                    <th><label for="phone">Your Phone </label></th>
+                    <td>:</td>
+                    <td><input type="number" name="phone_number" id="phone" ></td>
+                </tr>
+
+
+                <br>
+                <tr>
+                    <th><label for="email">Email </label></th>
+                    <td>:</td>
+                    <td><input type="email" name="Email" id="email" required></td>
+                </tr>
+
+
+                <br>
+                <tr>
+                    <th>
+                        <label for="pass">Password </label>
+                    </th>
+                    <td>:</td>
+                    <td><input type="password" name="password" id="pass" required minlength="8" maxlength="16"></td>
+                </tr>
+
+                <br>
+                <tr>
+                    <th><label for="rpss">Re-Password </label></th>
+                    <td>:</td>
+                    <td><input type="password" name="repassword" id="rpss" required minlength="8" maxlength="16"></td>
+                </tr>
+
+
+            </table>
+            <br><br><br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="FeMale">Female
+            <br><br><br>
+            <input type="checkbox" name="status">Student<br>
+            <input type="checkbox" name="status">Graduated
+            <br><br><br>
+            <select name="country">
+                <optgroup label="programming languages">
+                    <option value="c++">C++</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="c#">C#</option>
+                </optgroup>
+                <optgroup label="optional subject">
+                    <option value="neural networks">Neural Networks</option>
+                    <option value="Security">Security</option>
+                </optgroup>
+            </select>
+            <br>
+            <button style="background-color: rgb(245,237,204);"><img src="img/submit.PNG" alt="submit_button" width="80"
+                    height="30"></button>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
